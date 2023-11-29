@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        abi: [ aarch64-linux-android, x86_64-linux-android ]
+        abi: [ aarch64-linux-android, x86_64-linux-android, armv7-linux-androideabi ]
 
     name: Build (${{ matrix.abi }})
 
